@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('prestamo.jpg'); /* Añade la imagen de fondo aquí */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #d1b3ff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    color: #4b0082;
+    position: relative;
+}
+
+.calculator-container h1 {
+    color: #4b0082;
+    margin-bottom: 10px;
+}
+
+.calculator-container p {
+    margin-bottom: 10px;
+    color: #6a0dad;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #c8a2c8;
+    border-radius: 5px;
+    text-align: center;
+    color: #4b0082;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b19cd9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #9b59b6;
+}
+
+#resultado {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #6a0dad;
+}
